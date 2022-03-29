@@ -1,17 +1,4 @@
-<!--
-=========================================================
-* Material Dashboard 2 - v3.0.2
-=========================================================
 
-* Product Page: https://www.creative-tim.com/product/material-dashboard
-* Copyright 2022 Creative Tim (https://www.creative-tim.com)
-* Licensed under MIT (https://www.creative-tim.com/license)
-* Coded by Creative Tim
-
-=========================================================
-
-* The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
--->
 <!DOCTYPE html>
 <html lang="en">
 
@@ -104,6 +91,7 @@
     
   </aside>
   <main class="main-content position-relative max-height-vh-100 h-100 border-radius-lg ">
+    
     <!-- Navbar -->
     <nav class="navbar navbar-main navbar-expand-lg px-0 mx-4 shadow-none border-radius-xl" id="navbarBlur" navbar-scroll="true">
       <div class="container-fluid py-1 px-3">
@@ -220,6 +208,8 @@
       </div>
     </nav>
     <!-- End Navbar -->
+
+
     <div class="container-fluid py-4">
       <div class="row">
         <div class="col-12">
@@ -234,65 +224,46 @@
                 <table class="table align-items-center mb-0">
                   <thead>
                     <tr>
-                      <th class="text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">Nome da Conta</th>
-                      <th class="text-uppercase text-secondary text-xxs font-weight-bolder opacity-7 ps-2">Código</th>
-                      <th class="text-center text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">Status</th>
-                      <th class="text-center text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">Contrato</th>
-                      <th class="text-center text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">Cliente</th>
-                      <th class="text-center text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">Contrato</th>
+                      <th class="text-uppercase text-secondary font-weight-bolder opacity-7">Nome da Conta</th>
+                      <th class="text-uppercase text-secondary font-weight-bolder opacity-7 ps-2">Código</th>
+                      <th class="text-center text-uppercase text-secondary font-weight-bolder opacity-7">Status</th>
+                      <th class="text-center text-uppercase text-secondary  font-weight-bolder opacity-7">Contrato</th>
+                      <th class="text-center text-uppercase text-secondary  font-weight-bolder opacity-7">Cliente</th>
+                      <th class="text-center text-uppercase text-secondary  font-weight-bolder opacity-7">Tipo</th>
                       <th class="text-secondary opacity-7"></th>
                     </tr>
                   </thead>
                   <tbody>
+
+                    <!-- PRIMEIRA LINHA -->
                     <tr>
                       <td>
                         <div class="d-flex px-2 py-1">
                           <div>
-                            <img src="../assets/img/team-2.jpg" class="avatar avatar-sm me-3 border-radius-lg" alt="user1">
+                            <!-- ALTERAR ICONE AQUI -->
+                            <img src="../assets/img/Icons/accountIcon.png" class="avatar avatar-sm me-3 border-radius-lg" alt="user1">
                           </div>
                           <div class="d-flex flex-column justify-content-center">
-                            <h6 class="mb-0 text-sm">John Michael</h6>
-                            <p class="text-xs text-secondary mb-0">john@creative-tim.com</p>
+                            <h6 class="mb-0 text-sm">AccountData</h6>
+                            <p class="text-xs text-secondary mb-0">data</p>
                           </div>
                         </div>
                       </td>
                       <td>
-                        <p class="text-xs font-weight-bold mb-0">Manager</p>
-                        <p class="text-xs text-secondary mb-0">Organization</p>
+                        <p class="text-xs font-weight-bold mb-0">CodeData</p>
+                        <p class="text-xs text-secondary mb-0">data</p>
                       </td>
                       <td class="align-middle text-center text-sm">
                         <span class="badge badge-sm bg-gradient-success">Online</span>
                       </td>
                       <td class="align-middle text-center">
-                        <span class="text-secondary text-xs font-weight-bold">23/04/18</span>
-                      </td>
-                      <td class="align-middle">
-                        <a href="javascript:;" class="text-secondary font-weight-bold text-xs" data-toggle="tooltip" data-original-title="Edit user">
-                          Edit
-                        </a>
-                      </td>
-                    </tr>
-                    <tr>
-                      <td>
-                        <div class="d-flex px-2 py-1">
-                          <div>
-                            <img src="../assets/img/team-3.jpg" class="avatar avatar-sm me-3 border-radius-lg" alt="user2">
-                          </div>
-                          <div class="d-flex flex-column justify-content-center">
-                            <h6 class="mb-0 text-sm">Alexa Liras</h6>
-                            <p class="text-xs text-secondary mb-0">alexa@creative-tim.com</p>
-                          </div>
-                        </div>
-                      </td>
-                      <td>
-                        <p class="text-xs font-weight-bold mb-0">Programator</p>
-                        <p class="text-xs text-secondary mb-0">Developer</p>
-                      </td>
-                      <td class="align-middle text-center text-sm">
-                        <span class="badge badge-sm bg-gradient-secondary">Offline</span>
+                        <span class="text-secondary text-xs font-weight-bold">ContractData</span>
                       </td>
                       <td class="align-middle text-center">
-                        <span class="text-secondary text-xs font-weight-bold">11/01/19</span>
+                        <span class="text-secondary text-xs font-weight-bold">ClientData</span>
+                      </td>
+                      <td class="align-middle text-center">
+                        <span class="text-secondary text-xs font-weight-bold">TypeData</span>
                       </td>
                       <td class="align-middle">
                         <a href="javascript:;" class="text-secondary font-weight-bold text-xs" data-toggle="tooltip" data-original-title="Edit user">
@@ -300,27 +271,36 @@
                         </a>
                       </td>
                     </tr>
+
+                    <!-- SEGUNDA LINHA -->
                     <tr>
                       <td>
                         <div class="d-flex px-2 py-1">
                           <div>
-                            <img src="../assets/img/team-4.jpg" class="avatar avatar-sm me-3 border-radius-lg" alt="user3">
+                            <!-- ALTERAR ICONE AQUI -->
+                            <img src="../assets/img/Icons/accountIcon.png" class="avatar avatar-sm me-3 border-radius-lg" alt="user1">
                           </div>
                           <div class="d-flex flex-column justify-content-center">
-                            <h6 class="mb-0 text-sm">Laurent Perrier</h6>
-                            <p class="text-xs text-secondary mb-0">laurent@creative-tim.com</p>
+                            <h6 class="mb-0 text-sm">AccountData</h6>
+                            <p class="text-xs text-secondary mb-0">data</p>
                           </div>
                         </div>
                       </td>
                       <td>
-                        <p class="text-xs font-weight-bold mb-0">Executive</p>
-                        <p class="text-xs text-secondary mb-0">Projects</p>
+                        <p class="text-xs font-weight-bold mb-0">CodeData</p>
+                        <p class="text-xs text-secondary mb-0">data</p>
                       </td>
                       <td class="align-middle text-center text-sm">
                         <span class="badge badge-sm bg-gradient-success">Online</span>
                       </td>
                       <td class="align-middle text-center">
-                        <span class="text-secondary text-xs font-weight-bold">19/09/17</span>
+                        <span class="text-secondary text-xs font-weight-bold">ContractData</span>
+                      </td>
+                      <td class="align-middle text-center">
+                        <span class="text-secondary text-xs font-weight-bold">ClientData</span>
+                      </td>
+                      <td class="align-middle text-center">
+                        <span class="text-secondary text-xs font-weight-bold">TypeData</span>
                       </td>
                       <td class="align-middle">
                         <a href="javascript:;" class="text-secondary font-weight-bold text-xs" data-toggle="tooltip" data-original-title="Edit user">
@@ -328,27 +308,36 @@
                         </a>
                       </td>
                     </tr>
+
+                    <!-- TECEIRA LINHA -->
                     <tr>
                       <td>
                         <div class="d-flex px-2 py-1">
                           <div>
-                            <img src="../assets/img/team-3.jpg" class="avatar avatar-sm me-3 border-radius-lg" alt="user4">
+                            <!-- ALTERAR ICONE AQUI -->
+                            <img src="../assets/img/Icons/accountIcon.png" class="avatar avatar-sm me-3 border-radius-lg" alt="user1">
                           </div>
                           <div class="d-flex flex-column justify-content-center">
-                            <h6 class="mb-0 text-sm">Michael Levi</h6>
-                            <p class="text-xs text-secondary mb-0">michael@creative-tim.com</p>
+                            <h6 class="mb-0 text-sm">AccountData</h6>
+                            <p class="text-xs text-secondary mb-0">data</p>
                           </div>
                         </div>
                       </td>
                       <td>
-                        <p class="text-xs font-weight-bold mb-0">Programator</p>
-                        <p class="text-xs text-secondary mb-0">Developer</p>
+                        <p class="text-xs font-weight-bold mb-0">CodeData</p>
+                        <p class="text-xs text-secondary mb-0">data</p>
                       </td>
                       <td class="align-middle text-center text-sm">
                         <span class="badge badge-sm bg-gradient-success">Online</span>
                       </td>
                       <td class="align-middle text-center">
-                        <span class="text-secondary text-xs font-weight-bold">24/12/08</span>
+                        <span class="text-secondary text-xs font-weight-bold">ContractData</span>
+                      </td>
+                      <td class="align-middle text-center">
+                        <span class="text-secondary text-xs font-weight-bold">ClientData</span>
+                      </td>
+                      <td class="align-middle text-center">
+                        <span class="text-secondary text-xs font-weight-bold">TypeData</span>
                       </td>
                       <td class="align-middle">
                         <a href="javascript:;" class="text-secondary font-weight-bold text-xs" data-toggle="tooltip" data-original-title="Edit user">
@@ -356,27 +345,36 @@
                         </a>
                       </td>
                     </tr>
+
+                    <!-- QUARTA LINHA -->
                     <tr>
                       <td>
                         <div class="d-flex px-2 py-1">
                           <div>
-                            <img src="../assets/img/team-2.jpg" class="avatar avatar-sm me-3 border-radius-lg" alt="user5">
+                            <!-- ALTERAR ICONE AQUI -->
+                            <img src="../assets/img/Icons/accountIcon.png" class="avatar avatar-sm me-3 border-radius-lg" alt="user1">
                           </div>
                           <div class="d-flex flex-column justify-content-center">
-                            <h6 class="mb-0 text-sm">Richard Gran</h6>
-                            <p class="text-xs text-secondary mb-0">richard@creative-tim.com</p>
+                            <h6 class="mb-0 text-sm">AccountData</h6>
+                            <p class="text-xs text-secondary mb-0">data</p>
                           </div>
                         </div>
                       </td>
                       <td>
-                        <p class="text-xs font-weight-bold mb-0">Manager</p>
-                        <p class="text-xs text-secondary mb-0">Executive</p>
+                        <p class="text-xs font-weight-bold mb-0">CodeData</p>
+                        <p class="text-xs text-secondary mb-0">data</p>
                       </td>
                       <td class="align-middle text-center text-sm">
-                        <span class="badge badge-sm bg-gradient-secondary">Offline</span>
+                        <span class="badge badge-sm bg-gradient-success">Online</span>
                       </td>
                       <td class="align-middle text-center">
-                        <span class="text-secondary text-xs font-weight-bold">04/10/21</span>
+                        <span class="text-secondary text-xs font-weight-bold">ContractData</span>
+                      </td>
+                      <td class="align-middle text-center">
+                        <span class="text-secondary text-xs font-weight-bold">ClientData</span>
+                      </td>
+                      <td class="align-middle text-center">
+                        <span class="text-secondary text-xs font-weight-bold">TypeData</span>
                       </td>
                       <td class="align-middle">
                         <a href="javascript:;" class="text-secondary font-weight-bold text-xs" data-toggle="tooltip" data-original-title="Edit user">
@@ -384,32 +382,302 @@
                         </a>
                       </td>
                     </tr>
+                    <!-- QUINTA LINHA -->
                     <tr>
                       <td>
                         <div class="d-flex px-2 py-1">
                           <div>
-                            <img src="../assets/img/team-4.jpg" class="avatar avatar-sm me-3 border-radius-lg" alt="user6">
+                            <!-- ALTERAR ICONE AQUI -->
+                            <img src="../assets/img/Icons/accountIcon.png" class="avatar avatar-sm me-3 border-radius-lg" alt="user1">
                           </div>
                           <div class="d-flex flex-column justify-content-center">
-                            <h6 class="mb-0 text-sm">Miriam Eric</h6>
-                            <p class="text-xs text-secondary mb-0">miriam@creative-tim.com</p>
+                            <h6 class="mb-0 text-sm">AccountData</h6>
+                            <p class="text-xs text-secondary mb-0">data</p>
                           </div>
                         </div>
                       </td>
                       <td>
-                        <p class="text-xs font-weight-bold mb-0">Programator</p>
-                        <p class="text-xs text-secondary mb-0">Developer</p>
+                        <p class="text-xs font-weight-bold mb-0">CodeData</p>
+                        <p class="text-xs text-secondary mb-0">data</p>
                       </td>
                       <td class="align-middle text-center text-sm">
-                        <span class="badge badge-sm bg-gradient-secondary">Offline</span>
+                        <span class="badge badge-sm bg-gradient-success">Online</span>
                       </td>
                       <td class="align-middle text-center">
-                        <span class="text-secondary text-xs font-weight-bold">14/09/20</span>
+                        <span class="text-secondary text-xs font-weight-bold">ContractData</span>
+                      </td>
+                      <td class="align-middle text-center">
+                        <span class="text-secondary text-xs font-weight-bold">ClientData</span>
+                      </td>
+                      <td class="align-middle text-center">
+                        <span class="text-secondary text-xs font-weight-bold">TypeData</span>
                       </td>
                       <td class="align-middle">
                         <a href="javascript:;" class="text-secondary font-weight-bold text-xs" data-toggle="tooltip" data-original-title="Edit user">
                           Edit
                         </a>
+                      </td>
+                    </tr>
+
+                    <!-- SEXTA LINHA -->
+                   <tr>
+                      <td>
+                        <div class="d-flex px-2 py-1">
+                          <div>
+                            <!-- ALTERAR ICONE AQUI -->
+                            <img src="../assets/img/Icons/accountIcon.png" class="avatar avatar-sm me-3 border-radius-lg" alt="user1">
+                          </div>
+                          <div class="d-flex flex-column justify-content-center">
+                            <h6 class="mb-0 text-sm">AccountData</h6>
+                            <p class="text-xs text-secondary mb-0">data</p>
+                          </div>
+                        </div>
+                      </td>
+                      <td>
+                        <p class="text-xs font-weight-bold mb-0">CodeData</p>
+                        <p class="text-xs text-secondary mb-0">data</p>
+                      </td>
+                      <td class="align-middle text-center text-sm">
+                        <span class="badge badge-sm bg-gradient-success">Online</span>
+                      </td>
+                      <td class="align-middle text-center">
+                        <span class="text-secondary text-xs font-weight-bold">ContractData</span>
+                      </td>
+                      <td class="align-middle text-center">
+                        <span class="text-secondary text-xs font-weight-bold">ClientData</span>
+                      </td>
+                      <td class="align-middle text-center">
+                        <span class="text-secondary text-xs font-weight-bold">TypeData</span>
+                      </td>
+                      <td class="align-middle">
+                        <a href="javascript:;" class="text-secondary font-weight-bold text-xs" data-toggle="tooltip" data-original-title="Edit user">
+                          Edit
+                        </a>
+                      </td>
+                    </tr>
+
+                  </tbody>
+                </table>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- TABELA CONCESSIONÁRIA -->
+
+      <div class="row">
+        <div class="col-12">
+          <div class="card my-4">
+            <div class="card-header p-0 position-relative mt-n4 mx-3 z-index-2">
+              <div class="bg-gradient-primary shadow-primary border-radius-lg pt-4 pb-3">
+                <h6 class="text-white text-capitalize ps-3">Tabela de Concessionária</h6>
+              </div>
+            </div>
+            <div class="card-body px-0 pb-2">
+              <div class="table-responsive p-0">
+                <table class="table align-items-center justify-content-center mb-0">
+                  <thead>
+                    <tr>
+                      <th class="text-uppercase text-secondary  font-weight-bolder opacity-7">Nome</th>
+                      <th class="text-uppercase text-secondary  font-weight-bolder opacity-7 ps-2">Código</th>
+                      <th class="text-uppercase text-secondary  font-weight-bolder opacity-7 ps-2">Status</th>
+                      <th class="text-uppercase text-secondary  font-weight-bolder opacity-7 ps-2">Cliente</th>
+                      <th class="text-uppercase text-secondary  font-weight-bolder  opacity-7 ps-2">Tipo</th>
+                      <th></th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                 <!-- Primeira LINHA -->
+                    <tr>
+                      <td>
+                        <div class="d-flex px-2">
+                          <div>
+                            <!-- ALTERE O ICONE AQUI -->
+                            <img src="../assets/img/small-logos/logo-asana.svg" class="avatar avatar-sm rounded-circle me-2" alt="spotify">
+                          </div>
+                          <div class="my-auto">
+                            <h6 class="mb-0 text-sm">NameData</h6>
+                          </div>
+                        </div>
+                      </td>
+                      <td>
+                        <p class="text-sm font-weight-bold mb-0">CodeData</p>
+                      </td>
+                      <td>
+                        <span class="text-xs font-weight-bold ">working</span>
+                      </td>
+                       <td>
+                        <p class="text-sm font-weight-bold mb-0">ClientData</p>
+                      </td>
+                       <td>
+                        <p class="text-sm font-weight-bold mb-0">TypeData</p>
+                      </td>
+                      
+                      <td class="align-middle">
+                        <button class="btn btn-link text-secondary mb-0">
+                          <i class="fa fa-ellipsis-v text-xs"></i>
+                        </button>
+                      </td>
+                    </tr>
+
+                <!-- SEGUNDA LINHA -->
+                    <tr>
+                      <td>
+                        <div class="d-flex px-2">
+                          <div>
+                            <!-- ALTERE O ICONE AQUI -->
+                            <img src="../assets/img/small-logos/logo-asana.svg" class="avatar avatar-sm rounded-circle me-2" alt="spotify">
+                          </div>
+                          <div class="my-auto">
+                            <h6 class="mb-0 text-sm">NameData</h6>
+                          </div>
+                        </div>
+                      </td>
+                      <td>
+                        <p class="text-sm font-weight-bold mb-0">CodeData</p>
+                      </td>
+                      <td>
+                        <span class="text-xs font-weight-bold ">working</span>
+                      </td>
+                       <td>
+                        <p class="text-sm font-weight-bold mb-0">ClientData</p>
+                      </td>
+                       <td>
+                        <p class="text-sm font-weight-bold mb-0">TypeData</p>
+                      </td>
+                      <td class="align-middle">
+                        <button class="btn btn-link text-secondary mb-0" aria-haspopup="true" aria-expanded="false">
+                          <i class="fa fa-ellipsis-v text-xs"></i>
+                        </button>
+                      </td>
+                    </tr>
+
+                    <!-- TERCEIRA LINHA -->
+                    <tr>
+                      <td>
+                        <div class="d-flex px-2">
+                          <div>
+                            <!-- ALTERE O ICONE AQUI -->
+                            <img src="../assets/img/small-logos/logo-asana.svg" class="avatar avatar-sm rounded-circle me-2" alt="spotify">
+                          </div>
+                          <div class="my-auto">
+                            <h6 class="mb-0 text-sm">NameData</h6>
+                          </div>
+                        </div>
+                      </td>
+                      <td>
+                        <p class="text-sm font-weight-bold mb-0">CodeData</p>
+                      </td>
+                      <td>
+                        <span class="text-xs font-weight-bold ">working</span>
+                      </td>
+                       <td>
+                        <p class="text-sm font-weight-bold mb-0">ClientData</p>
+                      </td>
+                       <td>
+                        <p class="text-sm font-weight-bold mb-0">TypeData</p>
+                      </td>
+                      <td class="align-middle">
+                        <button class="btn btn-link text-secondary mb-0" aria-haspopup="true" aria-expanded="false">
+                          <i class="fa fa-ellipsis-v text-xs"></i>
+                        </button>
+                      </td>
+                    </tr>
+
+                    <!-- QUARTA LINHA -->
+                    <tr>
+                      <td>
+                        <div class="d-flex px-2">
+                          <div>
+                            <!-- ALTERE O ICONE AQUI -->
+                            <img src="../assets/img/small-logos/logo-asana.svg" class="avatar avatar-sm rounded-circle me-2" alt="spotify">
+                          </div>
+                          <div class="my-auto">
+                            <h6 class="mb-0 text-sm">NameData</h6>
+                          </div>
+                        </div>
+                      </td>
+                      <td>
+                        <p class="text-sm font-weight-bold mb-0">CodeData</p>
+                      </td>
+                      <td>
+                        <span class="text-xs font-weight-bold ">working</span>
+                      </td>
+                       <td>
+                        <p class="text-sm font-weight-bold mb-0">ClientData</p>
+                      </td>
+                       <td>
+                        <p class="text-sm font-weight-bold mb-0">TypeData</p>
+                      </td>
+                      <td class="align-middle">
+                        <button class="btn btn-link text-secondary mb-0" aria-haspopup="true" aria-expanded="false">
+                          <i class="fa fa-ellipsis-v text-xs"></i>
+                        </button>
+                      </td>
+                    </tr>
+
+                    <!-- QUINTA LINHA -->
+                    <tr>
+                      <td>
+                        <div class="d-flex px-2">
+                          <div>
+                            <!-- ALTERE O ICONE AQUI -->
+                            <img src="../assets/img/small-logos/logo-asana.svg" class="avatar avatar-sm rounded-circle me-2" alt="spotify">
+                          </div>
+                          <div class="my-auto">
+                            <h6 class="mb-0 text-sm">NameData</h6>
+                          </div>
+                        </div>
+                      </td>
+                      <td>
+                        <p class="text-sm font-weight-bold mb-0">CodeData</p>
+                      </td>
+                      <td>
+                        <span class="text-xs font-weight-bold ">working</span>
+                      </td>
+                       <td>
+                        <p class="text-sm font-weight-bold mb-0">ClientData</p>
+                      </td>
+                       <td>
+                        <p class="text-sm font-weight-bold mb-0">TypeData</p>
+                      </td>
+                      <td class="align-middle">
+                        <button class="btn btn-link text-secondary mb-0" aria-haspopup="true" aria-expanded="false">
+                          <i class="fa fa-ellipsis-v text-xs"></i>
+                        </button>
+                      </td>
+                    </tr>
+
+                    <!-- SEXTA LINHA -->
+                    <tr>
+                      <td>
+                        <div class="d-flex px-2">
+                          <div>
+                            <!-- ALTERE O ICONE AQUI -->
+                            <img src="../assets/img/small-logos/logo-asana.svg" class="avatar avatar-sm rounded-circle me-2" alt="spotify">
+                          </div>
+                          <div class="my-auto">
+                            <h6 class="mb-0 text-sm">NameData</h6>
+                          </div>
+                        </div>
+                      </td>
+                      <td>
+                        <p class="text-sm font-weight-bold mb-0">CodeData</p>
+                      </td>
+                      <td>
+                        <span class="text-xs font-weight-bold ">working</span>
+                      </td>
+                       <td>
+                        <p class="text-sm font-weight-bold mb-0">ClientData</p>
+                      </td>
+                       <td>
+                        <p class="text-sm font-weight-bold mb-0">TypeData</p>
+                      </td>
+                      <td class="align-middle">
+                        <button class="btn btn-link text-secondary mb-0" aria-haspopup="true" aria-expanded="false">
+                          <i class="fa fa-ellipsis-v text-xs"></i>
+                        </button>
                       </td>
                     </tr>
                   </tbody>
@@ -419,12 +687,15 @@
           </div>
         </div>
       </div>
+
+       <!-- TABELA CONTRATO -->
+
       <div class="row">
         <div class="col-12">
           <div class="card my-4">
             <div class="card-header p-0 position-relative mt-n4 mx-3 z-index-2">
               <div class="bg-gradient-primary shadow-primary border-radius-lg pt-4 pb-3">
-                <h6 class="text-white text-capitalize ps-3">Projects table</h6>
+                <h6 class="text-white text-capitalize ps-3">Tabela de Contrato</h6>
               </div>
             </div>
             <div class="card-body px-0 pb-2">
@@ -432,208 +703,228 @@
                 <table class="table align-items-center justify-content-center mb-0">
                   <thead>
                     <tr>
-                      <th class="text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">Project</th>
-                      <th class="text-uppercase text-secondary text-xxs font-weight-bolder opacity-7 ps-2">Budget</th>
-                      <th class="text-uppercase text-secondary text-xxs font-weight-bolder opacity-7 ps-2">Status</th>
-                      <th class="text-uppercase text-secondary text-xxs font-weight-bolder text-center opacity-7 ps-2">Completion</th>
+                      <th class="text-uppercase text-secondary  font-weight-bolder opacity-7">Código</th>
+                      <th class="text-uppercase text-secondary  font-weight-bolder opacity-7 ps-2">Concessionária</th>
+                      <th class="text-uppercase text-secondary  font-weight-bolder opacity-7 ps-2">Status</th>
+                      <th class="text-uppercase text-secondary  font-weight-bolder opacity-7 ps-2">Cliente</th>
+                      <th class="text-uppercase text-secondary  font-weight-bolder  opacity-7 ps-2">Tipo</th>
                       <th></th>
                     </tr>
                   </thead>
                   <tbody>
+                 <!-- Primeira LINHA -->
                     <tr>
                       <td>
                         <div class="d-flex px-2">
                           <div>
-                            <img src="../assets/img/small-logos/logo-asana.svg" class="avatar avatar-sm rounded-circle me-2" alt="spotify">
+                            <!-- ALTERE O ICONE AQUI -->
+                            <img src="../assets/img/Icons/contractIcon.png" class="avatar avatar-sm rounded-circle me-2" alt="spotify">
                           </div>
                           <div class="my-auto">
-                            <h6 class="mb-0 text-sm">Asana</h6>
+                            <h6 class="mb-0 text-sm">CodeData</h6>
                           </div>
                         </div>
                       </td>
                       <td>
-                        <p class="text-sm font-weight-bold mb-0">$2,500</p>
+                        <p class="text-sm font-weight-bold mb-0">ConcessinariaData</p>
                       </td>
                       <td>
-                        <span class="text-xs font-weight-bold">working</span>
+                        <span class="text-xs font-weight-bold ">working</span>
                       </td>
-                      <td class="align-middle text-center">
-                        <div class="d-flex align-items-center justify-content-center">
-                          <span class="me-2 text-xs font-weight-bold">60%</span>
-                          <div>
-                            <div class="progress">
-                              <div class="progress-bar bg-gradient-info" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%;"></div>
-                            </div>
-                          </div>
-                        </div>
+                       <td>
+                        <p class="text-sm font-weight-bold mb-0">ClientData</p>
                       </td>
+                       <td>
+                        <p class="text-sm font-weight-bold mb-0">TypeData</p>
+                      </td>
+                      
                       <td class="align-middle">
                         <button class="btn btn-link text-secondary mb-0">
                           <i class="fa fa-ellipsis-v text-xs"></i>
                         </button>
                       </td>
                     </tr>
+
+                <!-- SEGUNDA LINHA -->
                     <tr>
                       <td>
                         <div class="d-flex px-2">
                           <div>
-                            <img src="../assets/img/small-logos/github.svg" class="avatar avatar-sm rounded-circle me-2" alt="invision">
+                            <!-- ALTERE O ICONE AQUI -->
+                            <img src="../assets/img/Icons/contractIcon.png" class="avatar avatar-sm rounded-circle me-2" alt="spotify">
                           </div>
                           <div class="my-auto">
-                            <h6 class="mb-0 text-sm">Github</h6>
+                            <h6 class="mb-0 text-sm">CodeData</h6>
                           </div>
                         </div>
                       </td>
                       <td>
-                        <p class="text-sm font-weight-bold mb-0">$5,000</p>
+                        <p class="text-sm font-weight-bold mb-0">ConcessinariaData</p>
                       </td>
                       <td>
-                        <span class="text-xs font-weight-bold">done</span>
+                        <span class="text-xs font-weight-bold ">working</span>
                       </td>
-                      <td class="align-middle text-center">
-                        <div class="d-flex align-items-center justify-content-center">
-                          <span class="me-2 text-xs font-weight-bold">100%</span>
-                          <div>
-                            <div class="progress">
-                              <div class="progress-bar bg-gradient-success" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width: 100%;"></div>
-                            </div>
-                          </div>
-                        </div>
+                       <td>
+                        <p class="text-sm font-weight-bold mb-0">ClientData</p>
                       </td>
+                       <td>
+                        <p class="text-sm font-weight-bold mb-0">TypeData</p>
+                      </td>
+                      
                       <td class="align-middle">
-                        <button class="btn btn-link text-secondary mb-0" aria-haspopup="true" aria-expanded="false">
+                        <button class="btn btn-link text-secondary mb-0">
                           <i class="fa fa-ellipsis-v text-xs"></i>
                         </button>
                       </td>
                     </tr>
-                    <tr>
+
+                    <!-- TERCEIRA LINHA -->
+                   <tr>
                       <td>
                         <div class="d-flex px-2">
                           <div>
-                            <img src="../assets/img/small-logos/logo-atlassian.svg" class="avatar avatar-sm rounded-circle me-2" alt="jira">
+                            <!-- ALTERE O ICONE AQUI -->
+                            <img src="../assets/img/Icons/contractIcon.png" class="avatar avatar-sm rounded-circle me-2" alt="spotify">
                           </div>
                           <div class="my-auto">
-                            <h6 class="mb-0 text-sm">Atlassian</h6>
+                            <h6 class="mb-0 text-sm">CodeData</h6>
                           </div>
                         </div>
                       </td>
                       <td>
-                        <p class="text-sm font-weight-bold mb-0">$3,400</p>
+                        <p class="text-sm font-weight-bold mb-0">ConcessinariaData</p>
                       </td>
                       <td>
-                        <span class="text-xs font-weight-bold">canceled</span>
+                        <span class="text-xs font-weight-bold ">working</span>
                       </td>
-                      <td class="align-middle text-center">
-                        <div class="d-flex align-items-center justify-content-center">
-                          <span class="me-2 text-xs font-weight-bold">30%</span>
-                          <div>
-                            <div class="progress">
-                              <div class="progress-bar bg-gradient-danger" role="progressbar" aria-valuenow="30" aria-valuemin="0" aria-valuemax="30" style="width: 30%;"></div>
-                            </div>
-                          </div>
-                        </div>
+                       <td>
+                        <p class="text-sm font-weight-bold mb-0">ClientData</p>
                       </td>
+                       <td>
+                        <p class="text-sm font-weight-bold mb-0">TypeData</p>
+                      </td>
+                      
                       <td class="align-middle">
-                        <button class="btn btn-link text-secondary mb-0" aria-haspopup="true" aria-expanded="false">
+                        <button class="btn btn-link text-secondary mb-0">
                           <i class="fa fa-ellipsis-v text-xs"></i>
                         </button>
                       </td>
                     </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+       <!-- TABELA UNIDADE -->
+
+      <div class="row">
+        <div class="col-12">
+          <div class="card my-4">
+            <div class="card-header p-0 position-relative mt-n4 mx-3 z-index-2">
+              <div class="bg-gradient-primary shadow-primary border-radius-lg pt-4 pb-3">
+                <h6 class="text-white text-capitalize ps-3">Tabela de Unidade</h6>
+              </div>
+            </div>
+            <div class="card-body px-0 pb-2">
+              <div class="table-responsive p-0">
+                <table class="table align-items-center justify-content-center mb-0">
+                  <thead>
+                    <tr>
+                      <th class="text-uppercase text-secondary font-weight-bolder opacity-7">Nome da Unidade</th>
+                      <th class="text-uppercase text-secondary font-weight-bolder opacity-7 ps-2">CNPJ</th>
+                      <th class="text-uppercase text-secondary font-weight-bolder opacity-7 ps-2">Cliente</th>
+                      <th class="text-uppercase text-secondary font-weight-bolder  opacity-7 ps-2">Telefone</th>
+                      <th></th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                 <!-- Primeira LINHA -->
                     <tr>
                       <td>
                         <div class="d-flex px-2">
                           <div>
-                            <img src="../assets/img/small-logos/bootstrap.svg" class="avatar avatar-sm rounded-circle me-2" alt="webdev">
+                            <!-- ALTERE O ICONE AQUI -->
+                            <img src="../assets/img/icons/unidadeIcon.png" class="avatar avatar-sm rounded-circle me-2" alt="spotify">
                           </div>
                           <div class="my-auto">
-                            <h6 class="mb-0 text-sm">Bootstrap</h6>
+                            <h6 class="mb-0 text-sm">NomeUniData</h6>
                           </div>
                         </div>
                       </td>
                       <td>
-                        <p class="text-sm font-weight-bold mb-0">$14,000</p>
+                        <p class="text-sm font-weight-bold mb-0">CNPJData</p>
                       </td>
-                      <td>
-                        <span class="text-xs font-weight-bold">working</span>
+                       <td>
+                        <p class="text-sm font-weight-bold mb-0">ClientData</p>
                       </td>
-                      <td class="align-middle text-center">
-                        <div class="d-flex align-items-center justify-content-center">
-                          <span class="me-2 text-xs font-weight-bold">80%</span>
-                          <div>
-                            <div class="progress">
-                              <div class="progress-bar bg-gradient-info" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="80" style="width: 80%;"></div>
-                            </div>
-                          </div>
-                        </div>
+                       <td>
+                        <p class="text-sm font-weight-bold mb-0">TelData</p>
                       </td>
+                      
                       <td class="align-middle">
-                        <button class="btn btn-link text-secondary mb-0" aria-haspopup="true" aria-expanded="false">
+                        <button class="btn btn-link text-secondary mb-0">
                           <i class="fa fa-ellipsis-v text-xs"></i>
                         </button>
                       </td>
                     </tr>
-                    <tr>
+
+                <tr>
                       <td>
                         <div class="d-flex px-2">
                           <div>
-                            <img src="../assets/img/small-logos/logo-slack.svg" class="avatar avatar-sm rounded-circle me-2" alt="slack">
+                            <!-- ALTERE O ICONE AQUI -->
+                            <img src="../assets/img/icons/unidadeIcon.png" class="avatar avatar-sm rounded-circle me-2" alt="spotify">
                           </div>
                           <div class="my-auto">
-                            <h6 class="mb-0 text-sm">Slack</h6>
+                            <h6 class="mb-0 text-sm">NomeUniData</h6>
                           </div>
                         </div>
                       </td>
                       <td>
-                        <p class="text-sm font-weight-bold mb-0">$1,000</p>
+                        <p class="text-sm font-weight-bold mb-0">CNPJData</p>
                       </td>
-                      <td>
-                        <span class="text-xs font-weight-bold">canceled</span>
+                       <td>
+                        <p class="text-sm font-weight-bold mb-0">ClientData</p>
                       </td>
-                      <td class="align-middle text-center">
-                        <div class="d-flex align-items-center justify-content-center">
-                          <span class="me-2 text-xs font-weight-bold">0%</span>
-                          <div>
-                            <div class="progress">
-                              <div class="progress-bar bg-gradient-success" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="0" style="width: 0%;"></div>
-                            </div>
-                          </div>
-                        </div>
+                       <td>
+                        <p class="text-sm font-weight-bold mb-0">TelData</p>
                       </td>
+                      
                       <td class="align-middle">
-                        <button class="btn btn-link text-secondary mb-0" aria-haspopup="true" aria-expanded="false">
+                        <button class="btn btn-link text-secondary mb-0">
                           <i class="fa fa-ellipsis-v text-xs"></i>
                         </button>
                       </td>
                     </tr>
-                    <tr>
+
+                    <!-- TERCEIRA LINHA -->
+                  <tr>
                       <td>
                         <div class="d-flex px-2">
                           <div>
-                            <img src="../assets/img/small-logos/devto.svg" class="avatar avatar-sm rounded-circle me-2" alt="xd">
+                            <!-- ALTERE O ICONE AQUI -->
+                            <img src="../assets/img/icons/unidadeIcon.png" class="avatar avatar-sm rounded-circle me-2" alt="spotify">
                           </div>
                           <div class="my-auto">
-                            <h6 class="mb-0 text-sm">Devto</h6>
+                            <h6 class="mb-0 text-sm">NameUniData</h6>
                           </div>
                         </div>
                       </td>
                       <td>
-                        <p class="text-sm font-weight-bold mb-0">$2,300</p>
+                        <p class="text-sm font-weight-bold mb-0">CNPJData</p>
                       </td>
-                      <td>
-                        <span class="text-xs font-weight-bold">done</span>
+                       <td>
+                        <p class="text-sm font-weight-bold mb-0">ClientData</p>
                       </td>
-                      <td class="align-middle text-center">
-                        <div class="d-flex align-items-center justify-content-center">
-                          <span class="me-2 text-xs font-weight-bold">100%</span>
-                          <div>
-                            <div class="progress">
-                              <div class="progress-bar bg-gradient-success" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width: 100%;"></div>
-                            </div>
-                          </div>
-                        </div>
+                       <td>
+                        <p class="text-sm font-weight-bold mb-0">TelData</p>
                       </td>
+                      
                       <td class="align-middle">
-                        <button class="btn btn-link text-secondary mb-0" aria-haspopup="true" aria-expanded="false">
+                        <button class="btn btn-link text-secondary mb-0">
                           <i class="fa fa-ellipsis-v text-xs"></i>
                         </button>
                       </td>
@@ -649,28 +940,11 @@
         <div class="container-fluid">
           <div class="row align-items-center justify-content-lg-between">
             <div class="col-lg-6 mb-lg-0 mb-4">
-              <div class="copyright text-center text-sm text-muted text-lg-start">
-                © <script>
-                  document.write(new Date().getFullYear())
-                </script>,
-                made with <i class="fa fa-heart"></i> by
-                <a href="https://www.creative-tim.com" class="font-weight-bold" target="_blank">Creative Tim</a>
-                for a better web.
-              </div>
             </div>
             <div class="col-lg-6">
               <ul class="nav nav-footer justify-content-center justify-content-lg-end">
                 <li class="nav-item">
-                  <a href="https://www.creative-tim.com" class="nav-link text-muted" target="_blank">Creative Tim</a>
-                </li>
-                <li class="nav-item">
-                  <a href="https://www.creative-tim.com/presentation" class="nav-link text-muted" target="_blank">About Us</a>
-                </li>
-                <li class="nav-item">
-                  <a href="https://www.creative-tim.com/blog" class="nav-link text-muted" target="_blank">Blog</a>
-                </li>
-                <li class="nav-item">
-                  <a href="https://www.creative-tim.com/license" class="nav-link pe-0 text-muted" target="_blank">License</a>
+                  <a href="" class="nav-link text-muted" target="_blank">About Us</a>
                 </li>
               </ul>
             </div>
