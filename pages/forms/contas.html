@@ -20,7 +20,7 @@
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Round" rel="stylesheet">
   <!-- CSS Files -->
   <link id="pagestyle" href="../../assets/css/material-dashboard.css?v=3.0.2" rel="stylesheet" />
-  <link id="formstyle" href="../../assets/css/contrato.css" rel="stylesheet" />
+  <link id="formstyle" href="../../assets/css/conta.css" rel="stylesheet" />
 </head>
 
 <body class="g-sidenav-show  bg-gray-200">
@@ -214,17 +214,17 @@
 
     <!-- FORMS -->
     <div class="container-fluid py-4">
-      <h1 class="title">CADASTRO DE UNIDADE </h1> <br> <h4 style="font-size: 1rem;" class="subtitle" >(campos precisam de pontuação)</h4>
+      <h1 class="title">CADASTRO DE CONTA </h1> <br> <h4 style="font-size: 1rem;" class="subtitle" >(campos precisam de pontuação)</h4>
       <form action="" method="POST">
         <section class="block-main2">
-            <div style="padding: 2rem 0 0 23rem;">
-                <input type="radio" id="energia" name="nameEnergia" value="energia"checked>
+            <div style="padding: 3rem 0 0 37rem;">
+                <input type="radio" id="energia" name="conta" value="energia"checked>
                 <label for="energia">Energia</label>
         
-                <input type="radio" id="agua" name="nameAgua" value="agua">
+                <input type="radio" id="agua" name="conta" value="agua">
                 <label for="agua">Água</label>
 
-                <input type="radio" id="gas" name="nameGas" value="gas">
+                <input type="radio" id="gas" name="conta" value="gas">
                 <label for="gas">Gás</label>
             </div>
           <div class="sub-main-right">
@@ -247,7 +247,7 @@
           
           <div class="sub-main-left">
             <label for="consumoConta">Consumo:</label><br>
-            <textarea maxlength="500" type="text" name="consumoConta" id="consumoConta" placeholder="Subsídio-4,36"></textarea><br><br>
+            <input maxlength="500" type="text" name="consumoConta" id="consumoConta" placeholder="111m³"> <br><br>
             
             <label for="desconto">Desconto:</label><br>
             <input maxlength="60" type="text" name="descontoConta" id="descontoConta" placeholder="Devolução de Subsídio-4,36"> <br><br>
@@ -256,7 +256,7 @@
             <input maxlength="3" type="text" name="diasConta" id="diasConta" placeholder="32"> <br><br>
             
             <label for="dadosAdConta">Dados Adicionais:</label><br>
-            <textarea maxlength="500" type="text" name="dadosAdConta" id="dadosAdConta" placeholder="Algum dado importante a ser ressaltado"> </textarea><br><br>
+            <input maxlength="500" type="text" name="dadosAdConta" id="dadosAdConta" placeholder="Algo importante a ser ressaltado"> <br><br>
             
             <label for="valorTotConta">Valor Total:</label><br>
             <input maxlength="20" type="text" name="valorTotConta" id="valorTotConta" placeholder="R$100,00"> <br><br>        
