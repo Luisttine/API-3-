@@ -15,7 +15,7 @@
 }
 
 .space {
-    padding-left: 10%;
+    padding-left: 9.5rem;
 }
 
 .subtitle {
@@ -27,6 +27,6 @@
 .bt {
     display: inline-block; 
     content: flex-end; 
-    margin-left: 37%;
+    margin-left: 40%;
     padding-bottom: 4%;
 }

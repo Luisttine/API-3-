@@ -27302,7 +27302,7 @@ pre[class*="language-"] {
 /* Dropdown Content (Hidden by Default) */
 .dropdown-content {
   margin-top: 14rem;
-  margin-left: 5rem;
+  margin-left: ;
   display: none;
   position: absolute;
   background-color: #f1f1f1;
